@@ -63,7 +63,7 @@ static int __init ebbchar_init(void){
       printk(KERN_ALERT "EBBChar failed to register a major number\n");
       return majorNumber;
    }
-   printk(KERN_INFO "EBBChar: registered correctly with major number %d\n", majorNumber);
+   printk(KERN_INFO "EBBChar: [zzy, 151108]registered correctly with major number %d\n", majorNumber);
  
    // Register the device class
    ebbcharClass = class_create(THIS_MODULE, CLASS_NAME);

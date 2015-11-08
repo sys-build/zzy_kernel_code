@@ -1,1 +1,1 @@
-obj-m += char_dev.o
+obj-y += char_dev.o
