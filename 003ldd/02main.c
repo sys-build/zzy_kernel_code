@@ -13,7 +13,7 @@ int scull_init_module(void)
 	int result;
 	printk(KERN_ALERT "scull init\n");
 	return 0;
-
+	goto fail;
 fail:
 	scull_cleanup_module();
 	return result;
