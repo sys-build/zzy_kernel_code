@@ -1,6 +1,3 @@
-# 00 hello module
-obj-m += 00hello.o
-
 # 01 start module
 01main-objs := 01time.o 01proc_info.o 01start.o
 obj-m += 01main.o
